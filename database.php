@@ -4,27 +4,27 @@
 <body>
     <?php
         
-        
-        function pdo_connect_mysql()
-        {
-            // specifying the connection parameters
-            $connString = "mysql:host=localhost;port=8889;dbname=truman_cs";
-            $DATABASE_USER = 'kafi';
-            $DATABASE_PASS = '1q2w3e4rTruman';
-            try {
-                // creating a php database object
-                $pdo = new PDO($connString, $DATABASE_USER, $DATABASE_PASS);
-                // exception handling parameters
-                $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                return $pdo;
-            } catch (PDOException $exception) {
-                // If there is an error with the connection, 
-                // stop the script and display the error.
-                echo "Database connection unsuccessful";
-                // die($e->getMessage());
-                exit('Failed to connect to database!');
-            }
-        }    
+//        commenting the function
+//        function pdo_connect_mysql()
+//        {
+//            // specifying the connection parameters
+//            $connString = "mysql:host=localhost;port=8889;dbname=truman_cs";
+//            $DATABASE_USER = 'kafi';
+//            $DATABASE_PASS = '1q2w3e4rTruman';
+//            try {
+//                // creating a php database object
+//                $pdo = new PDO($connString, $DATABASE_USER, $DATABASE_PASS);
+//                // exception handling parameters
+//                $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+//                return $pdo;
+//            } catch (PDOException $exception) {
+//                // If there is an error with the connection, 
+//                // stop the script and display the error.
+//                echo "Database connection unsuccessful";
+//                // die($e->getMessage());
+//                exit('Failed to connect to database!');
+//            }
+//        }    
     
         session_start();
         echo "<h2> Creative query string in PHP </h2>";
