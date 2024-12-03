@@ -1,5 +1,5 @@
 # Kafi Rahman
-I am a Canadian!
+- I am a Canadian!
 - Software developer, Instructor, Professor
 - Github: [github.com/DrTruman](https://github.com/DrTruman)
 - LinekdIn: [linkedin.com/in/kafi](https://www.linkedin.com/in/kafi/) 
